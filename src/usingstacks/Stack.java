@@ -21,7 +21,7 @@ public class Stack <T>{
         myInputs.add(inputs);
     }
     
-    //takes nums off array
+    //takes objects off array
     void pop(int num){
         
         for(int i = 0; i < num; i++)
