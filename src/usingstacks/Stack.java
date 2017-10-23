@@ -2,10 +2,10 @@ package usingstacks;
 
 import java.util.ArrayList;
 
-public class Stack {
+public class Stack <T>{
     
     //base arratlist and other variables
-    private ArrayList<Integer> myInputs = new ArrayList<>();
+    private ArrayList<T> myInputs = new ArrayList<>();
     int counter;
     int stackSize;
     int Output;
@@ -17,7 +17,7 @@ public class Stack {
     }
     
     //adds inputs to array
-    void push(int inputs){
+    void push(T inputs){
         myInputs.add(inputs);
     }
     
