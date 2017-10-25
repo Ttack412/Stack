@@ -6,13 +6,10 @@ public class Stack <T>{
     
     //base arratlist and other variables
     private ArrayList<T> myInputs = new ArrayList<>();
-    int counter;
-    int stackSize;
     int Output;
     
     //sets stackSize and Output
     Stack(int size){
-        stackSize = size;
         Output = size;
     }
     
