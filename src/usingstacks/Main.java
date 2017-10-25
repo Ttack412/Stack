@@ -11,8 +11,8 @@ public class Main {
         //gets inputted number
         int stackSize = scanner.nextInt();
         
-        //Makes a stack and an ArrayList
-        Stack myStack = new Stack(stackSize);
+        //Makes a stack
+        Stack myStack = new Stack(stackSize++);
      
         //makes collects numbers based on the first number entered and adds them to the stack
         System.out.println("Please enter the objects you want to stack");

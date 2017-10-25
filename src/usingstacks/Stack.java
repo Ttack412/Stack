@@ -13,7 +13,7 @@ public class Stack <T>{
     //sets stackSize and Output
     Stack(int size){
         stackSize = size;
-        Output = size - 1;
+        Output = size;
     }
     
     //adds inputs to array
