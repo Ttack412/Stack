@@ -21,10 +21,9 @@ public class Stack <T>{
     //takes objects off array
     void pop(int num){
         
-        for(int i = 0; i < num; i++)
+        for(int i = 0; i <= num; i++)
         {
             System.out.println(myInputs.get(Output--));
-
         }
     }
 }
