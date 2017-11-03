@@ -23,7 +23,10 @@ public class Stack <T>{
         
         for(int i = 0; i <= num; i++)
         {
-            System.out.println(myInputs.get(Output--));
+            int value = Output--;
+            System.out.println(myInputs.get(value));
+            myInputs.remove(value);
+            value--;
         }
     }
 }
